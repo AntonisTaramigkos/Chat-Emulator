@@ -7,9 +7,10 @@ import messageRoutes from "./routes/message.routes.js"
 import userRoutes from "./routes/user.routes.js"
 
 import connectionToDB from "../db/connectionToDB.js"
+import { app, server } from "./socket/socket.js";
 
 
-const app = express()
+//const app = express() I will use socket.js to make the server
 dotenv.config()
 const PORT = process.env.PORT || 5000
 
@@ -25,7 +26,7 @@ app.use("/api/users",userRoutes)
 
 
 // Start Server 
-app.listen(PORT,()=>{
+server.listen(PORT,()=>{
         connectionToDB(); //Connect to Mongo DB
         console.log(`Hello there!!!.Server is listening at port:${PORT}`)
     });

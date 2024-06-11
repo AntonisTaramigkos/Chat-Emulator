@@ -7,7 +7,7 @@ const useGetConversations = () => {
 
 	useEffect(() => {
 		const getConversations = async () => {
-			setLoading(true);
+			setLoading(true);//The Loading Spinner
 			try {
 				const res = await fetch("/api/users");
 				const data = await res.json();

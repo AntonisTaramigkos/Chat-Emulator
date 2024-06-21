@@ -21,7 +21,7 @@ ensuring secure and efficient communication.
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
-- Node.js installed (version X.X.X or higher)
+- Node.js installed 
 - MongoDB set up locally or remotely
 - Other dependencies or services required
 

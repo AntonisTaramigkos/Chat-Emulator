@@ -25,27 +25,27 @@ Before you begin, ensure you have met the following requirements:
 ## Setup
   Clone the project repository:
   
-  git clone 
-  cd your-project-directory
+  - git clone 
+  - cd your-project-directory
   
   Install depedencies:
-  npm install 
-  and npm install inside the frontend!
+  - npm install 
+  - and npm install inside the frontend!
   
   Create .env:
   
-  PORT=8000
-  MONGO_URI=
-  JWT_SECRET=
-  NODE_ENV=developmen
+  - PORT=8000
+  - MONGO_URI=
+  - JWT_SECRET=
+  - NODE_ENV=developmen
   
   
 ## Running the Application
   To run the application locally, execute:
-  -npm run server
+  - npm run server
   
   and inside the frontend:
-  -npm run dev
+  - npm run dev
 
   Ctrl+click -> http://localhost:3000/
 
